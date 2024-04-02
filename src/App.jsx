@@ -41,6 +41,7 @@ function App() {
               <Route path="form" element={<Form />} />
             </Route>
             <Route path="*" element={<PageNotFound />} />
+            <Route path="world-wise" element={<Homepage />} />
           </Routes>
         </BrowserRouter>
       </CitiesProvider>
