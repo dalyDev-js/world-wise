@@ -32,7 +32,7 @@ function Form() {
   const [isLoadingGeocoding, setIsLoadingGeocoding] = useState(false);
   const [emoji, setEmoji] = useState("");
   const [geoCodingError, setGeoCodingError] = useState("");
-  const [startDate, setStartDate] = useState(new Date());
+
   useEffect(
     function () {
       if (!lat && !lng) return;
