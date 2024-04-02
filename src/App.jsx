@@ -24,11 +24,11 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<Homepage />} />
-            <Route path="product" element={<Product />} />
-            <Route path="pricing" element={<Pricing />} />
-            <Route path="login" element={<Login />} />
+            <Route path="/world-wise/product" element={<Product />} />
+            <Route path="/world-wise/pricing" element={<Pricing />} />
+            <Route path="/world-wise/login" element={<Login />} />
             <Route
-              path="app"
+              path="/world-wise/app"
               element={
                 <ProtectedRoute>
                   <AppLayout />
