@@ -21,7 +21,7 @@ function City() {
     function () {
       getCity(id);
     },
-    [id]
+    [id, getCity]
   );
   const navigate = useNavigate();
   const { cityName, emoji, date, notes } = currentCity;
